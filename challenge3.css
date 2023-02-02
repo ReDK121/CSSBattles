@@ -1,0 +1,52 @@
+<div id=c>
+<div id=l>
+  <div id=b>
+    <div id=y></div>
+  </div>
+</div>
+</div>
+<style>
+  body{
+    background: #6592CF;
+    z-index: 0;
+  }
+  #c {
+    width: 300px;
+    height: 150px;
+    background: #243D83;
+    position: absolute;
+    z-index: 1;
+    top: 75px;
+    left: 50px
+  }
+  #l{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #6592CF;
+    position: absolute;
+    z-index: 2;
+    left: 25px;
+    top: -50px
+  }
+  #b{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #243D83;
+    position: absolute;
+    z-index: 3;
+    left: 50px;
+    top:50px
+  }
+  #y{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #EEB850;
+    position: absolute;
+    z-index: 4;
+    left: 50px;
+    top:50px
+  }
+</style>
