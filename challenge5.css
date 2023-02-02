@@ -1,0 +1,37 @@
+<div id=r></div>
+<div id=g></div>
+<div id=ys></div>
+<style>
+  body{
+    background: #0B2429
+  }
+  div{
+    width: 120px;
+    height: 120px;
+    position: absolute
+  }
+  #r {
+    background: #F3AC3C;
+    border-radius: 50%;
+    top:30px;
+    right: 80px; 
+    z-index:1
+  }
+  #g, #ys{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%
+  }
+  #g{
+    background: #998235;
+    top:90px;
+    right: 140px; 
+    z-index:2
+  }
+  #ys{
+    background: #F3AC3C;
+    bottom:30px;
+    right: 200px; 
+    z-index:2
+  }
+</style>
