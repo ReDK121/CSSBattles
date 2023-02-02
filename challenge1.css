@@ -1,0 +1,16 @@
+<div>
+</div>
+<style>
+  div {
+    width: 200px;
+    height: 200px;
+    background: #B5E0BA;
+    position: absolute;
+    top: 0px;
+    left: 0px
+  }
+  
+  body{
+    background: #5D3A3A
+   }
+</style>
